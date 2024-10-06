@@ -7,12 +7,12 @@ const mySym = Symbol("key1")
 
 
 const JsUser = {
-    name: "Hitesh",
-    "full name": "Hitesh Choudhary",
+    name: "Chetan",
+    "full name": "Chetan Joshi",
     [mySym]: "mykey1",
     age: 18,
     location: "Jaipur",
-    email: "hitesh@google.com",
+    email: "Chetan@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
@@ -22,9 +22,9 @@ console.log( JsUser["email"])
 console.log(JsUser["full name"])
 console.log( JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com"
+JsUser.email = "Chetan@chatgpt.com"
 // Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "Chetan@microsoft.com"
 console.log(JsUser);
 
 JsUser.achhaFunction = function(){
