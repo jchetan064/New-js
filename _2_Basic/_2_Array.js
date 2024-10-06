@@ -22,7 +22,7 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Hitesh"))
 console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting return a empty array ,because it is confuse how to convert is it a value or a key
+console.log(Array.from({name: "hitesh"})) // interesting return a empty array ,because it is confuse how to convert is it a value or a key  
 
 let score1 = 100
 let score2 = 200
